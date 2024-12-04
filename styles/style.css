@@ -1,0 +1,233 @@
+@media screen and (min-width: 600px) {
+  /* Mobile first */
+
+  #haut {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #titre {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  h1,
+  h3 {
+    font-family: "Pacifico";
+  }
+
+  h1 {
+    color: #63cf17;
+  }
+
+  h3 {
+    background-color: #63cf17;
+    color: white;
+  }
+  .navbar {
+    background-color: #33373a;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    border: solid 2px white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  p {
+    color: black;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #haut {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #titre {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  h1,
+  h3 {
+    font-family: "Pacifico";
+  }
+
+  h1 {
+    color: #63cf17;
+  }
+
+  h3 {
+    background-color: #63cf17;
+    color: white;
+  }
+
+  .navbar {
+    background-color: #33373a;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-link {
+    border: none;
+    color: white;
+  }
+
+  #paragraphe {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #formation {
+    width: 30%;
+  }
+
+  #detail {
+    width: 70%;
+  }
+
+  p {
+    color: black;
+    gap: 15px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  #haut {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #logo {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #titre {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  h1,
+  h3 {
+    font-family: "Pacifico";
+  }
+
+  h1 {
+    color: #63cf17;
+  }
+
+  h3 {
+    background-color: #63cf17;
+    color: white;
+  }
+
+  .navbar {
+    background-color: #33373a;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-link {
+    border: none;
+    color: white;
+  }
+
+  #paragraphe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #formation {
+    width: 100%;
+  }
+
+  #detail {
+    width: 100%;
+  }
+
+  p {
+    color: black;
+    gap: 15px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+  }
+}
